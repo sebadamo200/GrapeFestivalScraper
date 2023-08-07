@@ -61,7 +61,7 @@ while notification_bol == False:
     driver.get("https://volunteers.grapefestival.sk/login/")
 
     username = "sebastian.klin@gmail.com"
-    password = "Seba@Damo100"
+    password = "************"
 
     # Fill in username and password and click on login
     wait = WebDriverWait(driver, 30)
