@@ -29,7 +29,7 @@ while notification_bol == False:
         msg['To'] = 'slavka.kurjak@gmail.com'
         msg.set_content('GrapeFestival - open positions 2')
         myServer = smtplib.SMTP_SSL('smtp.gmail.com', 465)
-        myServer.login('sebastian.klin@gmail.com', 'jrnmpoyjtjaicylr')
+        myServer.login('sebastian.klin@gmail.com', '*****')
         myServer.send_message(msg)
         msg2 = EmailMessage()
         msg2['Subject'] = 'GrapeFestival'
@@ -37,7 +37,7 @@ while notification_bol == False:
         msg2['To'] = 'sebastian.klin@gmail.com'
         msg2.set_content('GrapeFestival - open positions 2')
         myServer = smtplib.SMTP_SSL('smtp.gmail.com', 465)
-        myServer.login('sebastian.klin@gmail.com', 'jrnmpoyjtjaicylr')
+        myServer.login('sebastian.klin@gmail.com', '*******')
         myServer.send_message(msg2)
         myServer.quit()
         ######### WHATSAPP MSG ############
