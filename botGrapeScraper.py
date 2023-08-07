@@ -14,8 +14,8 @@ from twilio.rest import Client
 
 from twilio.rest import Client
 
-account_sid = 'ACff500721f5b8d698b1a129bbbc278904'
-auth_token = 'c0ad7f7245d6dbdb6afce8443ac6d288'
+account_sid = '*****'
+auth_token = '*****'
 
 notification_bol = False
 counter = 0
